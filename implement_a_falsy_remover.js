@@ -1,0 +1,9 @@
+function bouncer(arr){
+  let res = [];
+  for(let i = 0; i < arr.length; i++){
+    if(Boolean(arr[i])){
+      res.push(arr[i])
+    }
+  }
+  return res;
+}
